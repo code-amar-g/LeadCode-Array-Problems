@@ -135,3 +135,12 @@ console.log('jai shree ram');
 
 
 
+let s = ['h','e','l','l','o'];
+var reverseString = function(s) {
+    let rev = [];
+    for(let i = s.length-1; i>=0; i--){
+        rev.push(s[i]);
+    }
+    return rev
+};
+console.log(reverseString(s));
